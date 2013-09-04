@@ -1,0 +1,123 @@
+{"reservations":[
+    { "bookingcode":"6RYU9J",
+      "lastname"   :"REBOOKME",
+      "description":"rebookable return with onwards"
+    },
+    { "bookingcode":"6PKO8A",
+      "lastname"   :"REBOOKEDITINERARY",
+      "description":"rebooked to a (cheaper) itinerary. Has residual value EMD"
+    },
+    { "bookingcode":"6PKRBE",
+      "lastname"   :"REBOOKEDITINERARY",
+      "description":"rebooked to a (more expensive) itinerary"
+    },
+    { "bookingcode":"6N3LQS",
+      "lastname"   :"REBOOK",
+      "description":"with a rebooked flight in it; ticket revalidated"
+    },
+    { "bookingcode":"6TIMEV",
+      "lastname"   :"CREDITCARD",
+      "description":"Paid with a credit card - AMSCDG"
+    },
+    { "bookingcode":"6N3MGD",
+      "lastname"   :"REBOOKED",
+      "description":"with a rebooked flight in it; ticket reissued"
+    },
+    { "bookingcode":"YTNX3T",
+      "lastname"   :"GROUP",
+      "description":"group reservation; 14 pax; ticketed"
+    },
+    { "bookingcode":"6S9IUM",
+      "lastname"   :"VAN STOEL",
+      "description":"two pax with NO, KK on several flights. return AMSNRT 1-15JUL"
+    },
+    { "bookingcode":"6NY9O6",
+      "lastname"   :"KAAK",
+      "description":"open jaw, NO/KK seat, baby basket, surf board, ssr child without sr pax"
+    },
+    { "bookingcode":"6OW47G",
+      "lastname"   :"",
+      "description":"Booking with a flight departing 31 mar from Delhi (2:30)",
+      "country"    :"nl",
+      "language"   :"en",
+      "entryreason":"",
+      "landingpage":"",
+      "viewproduct":""
+    },
+    { "bookingcode":"6SCBZ6",
+      "lastname"   :"RUS",
+      "description":"parade of weird passenger types. includes INS, SEA, NAT, REC, MIS, FFY, YTH, BAG"
+    },
+    { "bookingcode":"6R944N",
+      "lastname"   :"DAYRETURN ",
+      "description":"Generic dayreturn AMS-CDG"
+    },
+    { "bookingcode":"6N2CJC",
+      "lastname"   :"INFORMATIONAL ",
+      "description":"with two informational segments"
+    },
+    { "bookingcode":"6N2AUZ",
+      "lastname"   :"TTT",
+      "description":"time to think reservation with two pax"
+    },
+    { "bookingcode":"6N2FXQ",
+      "lastname"   :"TTT",
+      "description":"time to think reservation with one pax"
+    },
+    { "bookingcode":"6NY6VB",
+      "lastname"   :"ECD",
+      "description":"one pax PNR with an ecd"
+    },
+    { "bookingcode":"6NZO6J",
+      "lastname"   :"ECD",
+      "description":"two pax PNR with a for all ecd and a load of contact details"
+    },
+    { "bookingcode":"6NY8H8",
+      "lastname"   :"Owner",
+      "description":"reservation with an AircraftOwner"
+    },
+    { "bookingcode":"6NZR2P",
+      "lastname"   :"BIZ",
+      "description":"bluebiz form of payment (FP ER169)"
+    },
+    { "bookingcode":"6N3O4J",
+      "lastname"   :"LONGITINERARY",
+      "description":"long itinerary; with conjunction tickets"
+    },
+    { "bookingcode":"6PZ9Y7",
+      "lastname"   :"SEPARATETICKETS ",
+      "description":"itinerary with more than one ticket per passenger; *NO* conjunction tickets"
+    },
+    { "bookingcode":"6SCVO2",
+      "lastname"   :"GROUPIE",
+      "description":"Group reservation. Most passengers in the reservation are called groupie, except the one called UNIQUE"
+    },
+    { "bookingcode":"6PGKO7",
+      "lastname"   :"INFANTS",
+      "description":"with all kinds of infants: INF, INF with lastname, INF in SR only, INS"
+    },
+    { "bookingcode":"6SBCTB",
+      "lastname"   :"IPB",
+      "description":"staff leisure travel PNR - open segments only"
+    },
+    { "bookingcode":"6SBAZ9",
+      "lastname"   :"DUTY",
+      "description":"staff duty travel PNR"
+    },
+    { "bookingcode":"6SNTZA",
+      "lastname"   :"JOHANNESBURG",
+      "description":"simple return to johannesburg"
+    },
+    { "bookingcode":"6SNVUG",
+      "lastname"   :"NARITA",
+      "description":"simple return to Tokyo. Japanese site. view product meal",
+      "country"    :"jp",
+      "language"   :"ja",
+      "viewproduct":"meal"
+    },
+    { "bookingcode":"6OYBA6",
+      "lastname"   :"OPTIONS",
+      "description":"Booking with a.o. (EC) paid seats"
+    }
+]
+}
