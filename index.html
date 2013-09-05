@@ -183,11 +183,20 @@
                 </datalist>
         </fieldset>
         <fieldset>
+            <label for="skipHeader">Skip header &amp; footer</label>
+            <input id="skipHeader" name="skipHeader" list="hflist">
+                <datalist id="hflist">
+                    <option value="true">
+                    <option value="false">
+                </datalist>
+        </fieldset>
+        <fieldset>
             <label for="baseurl" >Base URL</label>
             <select id="baseurl" style="color:inherit">
                 <option value="https://www.ute3.klm.com/ams/mytrip/booking/deeplink.xhtml">ute3</option>
                 <option value="https://www.ite1.klm.com/ams/mytrip/booking/deeplink.xhtml">ite1</option>
                 <option value="https://www.ute1.klm.com/ams/mytrip/booking/deeplink.xhtml">ute1</option>
+                <option value="https://www.ae3.klm.com/ams/mytrip/booking/deeplink.xhtml">ae3</option>
                 <option value="https://www.klm.com/ams/mytrip/booking/deeplink.xhtml" style="color:red;background-color:yellow;font-weight:900">--= L I V E (!) =--</option>
             </select>
             <span></span>
