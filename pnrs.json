@@ -1,5 +1,5 @@
 {"reservations":[
-    { "bookingcode":"6RYU9J",
+    { "bookingcode":"",
       "lastname"   :"REBOOKME",
       "description":"rebookable return with onwards"
     },
@@ -7,36 +7,36 @@
       "lastname"   :"REBOOK CHEAPER",
       "description":"rebooked to a (cheaper) itinerary. Has residual value EMD"
     },
-    { "bookingcode":"6PKRBE",
+    { "bookingcode":"",
       "lastname"   :"REBOOKEDITINERARY",
       "description":"rebooked to a (more expensive) itinerary"
     },
-    { "bookingcode":"6N3LQS",
+    { "bookingcode":"",
       "lastname"   :"REBOOK",
       "description":"with a rebooked flight in it; ticket revalidated"
     },
-    { "bookingcode":"6TIMEV",
+    { "bookingcode":"",
       "lastname"   :"CREDITCARD",
       "description":"Paid with a credit card - AMSCDG"
     },
-    { "bookingcode":"6N3MGD",
+    { "bookingcode":"",
       "lastname"   :"REBOOKED",
       "description":"with a rebooked flight in it; ticket reissued"
     },
-    { "bookingcode":"YTNX3T",
+    { "bookingcode":"",
       "lastname"   :"GROUP",
       "description":"group reservation; 14 pax; ticketed"
     },
-    { "bookingcode":"6S9IUM",
+    { "bookingcode":"",
       "lastname"   :"VAN STOEL",
       "description":"two pax with NO, KK on several flights. return AMSNRT 1-15JUL"
     },
-    { "bookingcode":"6NY9O6",
+    { "bookingcode":"",
       "lastname"   :"KAAK",
       "description":"open jaw, NO/KK seat, baby basket, surf board, ssr child without sr pax"
     },
-    { "bookingcode":"6OW47G",
-      "lastname"   :"",
+    { "bookingcode":"",
+      "lastname"   :"TIMEZONE DIFFERENCE",
       "description":"Booking with a flight departing 31 mar from Delhi (2:30)",
       "country"    :"nl",
       "language"   :"en",
@@ -44,78 +44,78 @@
       "landingpage":"",
       "viewproduct":""
     },
-    { "bookingcode":"6SCBZ6",
+    { "bookingcode":"",
       "lastname"   :"RUS",
       "description":"parade of weird passenger types. includes INS, SEA, NAT, REC, MIS, FFY, YTH, BAG"
     },
-    { "bookingcode":"6R944N",
+    { "bookingcode":"",
       "lastname"   :"DAYRETURN ",
       "description":"Generic dayreturn AMS-CDG"
     },
-    { "bookingcode":"6N2CJC",
+    { "bookingcode":"",
       "lastname"   :"INFORMATIONAL ",
       "description":"with two informational segments"
     },
-    { "bookingcode":"6N2AUZ",
+    { "bookingcode":"",
       "lastname"   :"TTT",
       "description":"time to think reservation with two pax"
     },
-    { "bookingcode":"6N2FXQ",
+    { "bookingcode":"",
       "lastname"   :"TTT",
       "description":"time to think reservation with one pax"
     },
-    { "bookingcode":"6NY6VB",
+    { "bookingcode":"",
       "lastname"   :"ECD",
       "description":"one pax PNR with an ecd"
     },
-    { "bookingcode":"6NZO6J",
+    { "bookingcode":"",
       "lastname"   :"ECD",
       "description":"two pax PNR with a for all ecd and a load of contact details"
     },
-    { "bookingcode":"6NY8H8",
+    { "bookingcode":"",
       "lastname"   :"Owner",
       "description":"reservation with an AircraftOwner"
     },
-    { "bookingcode":"6NZR2P",
+    { "bookingcode":"",
       "lastname"   :"BIZ",
       "description":"bluebiz form of payment (FP ER169)"
     },
-    { "bookingcode":"6N3O4J",
+    { "bookingcode":"",
       "lastname"   :"LONGITINERARY",
       "description":"long itinerary; with conjunction tickets"
     },
-    { "bookingcode":"6PZ9Y7",
+    { "bookingcode":"",
       "lastname"   :"SEPARATETICKETS ",
       "description":"itinerary with more than one ticket per passenger; *NO* conjunction tickets"
     },
-    { "bookingcode":"6SCVO2",
+    { "bookingcode":"",
       "lastname"   :"GROUPIE",
       "description":"Group reservation. Most passengers in the reservation are called groupie, except the one called UNIQUE"
     },
-    { "bookingcode":"6PGKO7",
+    { "bookingcode":"",
       "lastname"   :"INFANTS",
       "description":"with all kinds of infants: INF, INF with lastname, INF in SR only, INS"
     },
-    { "bookingcode":"6SBCTB",
+    { "bookingcode":"",
       "lastname"   :"IPB",
       "description":"staff leisure travel PNR - open segments only"
     },
-    { "bookingcode":"6SBAZ9",
+    { "bookingcode":"",
       "lastname"   :"DUTY",
       "description":"staff duty travel PNR"
     },
-    { "bookingcode":"6SNTZA",
+    { "bookingcode":"",
       "lastname"   :"JOHANNESBURG",
       "description":"simple return to johannesburg"
     },
-    { "bookingcode":"6SNVUG",
+    { "bookingcode":"",
       "lastname"   :"NARITA",
       "description":"simple return to Tokyo. Japanese site. view product meal",
       "country"    :"jp",
       "language"   :"ja",
       "viewproduct":"meal"
     },
-    { "bookingcode":"6OYBA6",
+    { "bookingcode":"",
       "lastname"   :"OPTIONS",
       "description":"Booking with a.o. (EC) paid seats"
     }
