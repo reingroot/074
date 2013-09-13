@@ -38,10 +38,10 @@
     { "bookingcode":"LADIDA",
       "lastname"   :"TIMEZONE DIFFERENCE",
       "description":"Booking with a flight departing 31 mar from Delhi (2:30)",
-      "country"    :"nl",
-      "language"   :"en",
+      "country"    :"de",
+      "language"   :"de",
       "entryreason":"",
-      "landingpage":"",
+      "landingpage":"overview",
       "skipheader" :"true",
       "viewproduct":""
     },
