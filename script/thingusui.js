@@ -67,7 +67,7 @@ function PNRListOnChange () {
         $("#viewproduct").val(x.reservations[i].viewproduct);
     } 
     if (x.reservations[i].skipheader||""===x.reservations[i].skipheader){
-        $("#skipHeader").val(x.reservations[i].viewproduct);
+        $("#skipHeader").val(x.reservations[i].skipheader);
     } 
 
 }
