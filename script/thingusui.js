@@ -66,6 +66,10 @@ function PNRListOnChange () {
     if (x.reservations[i].viewproduct||""===x.reservations[i].viewproduct){
         $("#viewproduct").val(x.reservations[i].viewproduct);
     } 
+    if (x.reservations[i].skipheader||""===x.reservations[i].skipheader){
+        $("#skipHeader").val(x.reservations[i].viewproduct);
+    } 
+
 }
 
 function compareReservation(pReservation1, pReservation2) {
