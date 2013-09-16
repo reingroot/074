@@ -53,7 +53,7 @@
       "lastname"   :"DAYRETURN ",
       "description":"Generic dayreturn AMS-CDG"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZSTYNT",
       "lastname"   :"INFORMATIONAL ",
       "description":"with two informational segments"
     },
