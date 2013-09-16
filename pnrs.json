@@ -97,11 +97,11 @@
       "lastname"   :"INFANTS",
       "description":"with all kinds of infants: INF, INF with lastname, INF in SR only, INS"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZSUPR6",
       "lastname"   :"IPB",
       "description":"staff leisure travel PNR - open segments only"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZSURCP",
       "lastname"   :"DUTY",
       "description":"staff duty travel PNR"
     },
