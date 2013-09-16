@@ -73,7 +73,7 @@
       "lastname"   :"ECD",
       "description":"two pax PNR with a for all ecd and a load of contact details"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZSTYNT",
       "lastname"   :"Owner",
       "description":"reservation with an AircraftOwner"
     },
