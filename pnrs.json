@@ -93,7 +93,7 @@
       "lastname"   :"GROUPIE",
       "description":"Group reservation. Most passengers in the reservation are called groupie, except the one called UNIQUE"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZSUJTA",
       "lastname"   :"INFANTS",
       "description":"with all kinds of infants: INF, INF with lastname, INF in SR only, INS"
     },
