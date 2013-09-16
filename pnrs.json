@@ -23,7 +23,7 @@
       "lastname"   :"REBOOKED",
       "description":"with a rebooked flight in it; ticket reissued"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZSTM8B",
       "lastname"   :"GROUP",
       "description":"group reservation; 14 pax; ticketed"
     },
