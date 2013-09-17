@@ -4,8 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="description" content="MyTrip deeplink tester">
-        <meta name="keywords" content="MyTrip deeplink">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="user-scalable=no, width=device-width"/>
         <title>MyTrip deeplink tester</title>
         <style type="text/css" media="screen">
             body {
@@ -95,6 +94,13 @@
                     padding: 0em;
                     border: none;
                 }
+                fieldset {
+                    padding-bottom: 0em;
+                }
+                h1 {
+                    margin-bottom: 0.0em;
+                    margin-top: 0.1em;
+                }
                 .hideonmobile {
                     display: none;
                 }
@@ -148,28 +154,28 @@
             </fieldset>
             <fieldset>
                 <label for="entryreason">Entry reason</label>
-                <input id="entryreason" name="entryreason" list="erlist">
+                <input id="entryreason" name="entryreason" list="erlist" placeholder="see admin tool">
                 <datalist id="erlist">
                     <option value="testall"><option value="testallsvc"><option value="Hotel"><option value="Car"><option value="1stbag"><option value="ABA"><option value="DEFAULT"><option value="ESTA"><option value="Insurance">
                 </datalist>
             </fieldset>
             <fieldset>
                 <label for="landingpage">Landing page</label>
-                <input id="landingpage" name="landingpage" list="lplist">
+                <input id="landingpage" name="landingpage" list="lplist" placeholder="main, overview, passengers">
                 <datalist id="lplist">
                     <option value="main"><option value="overview"><option value="passengers">
                 </datalist>
             </fieldset>
             <fieldset>
                 <label for="viewproduct">View product</label>
-                <input id="viewproduct" name="viewproduct" list="vplist">
+                <input id="viewproduct" name="viewproduct" list="vplist" placeholder="seat, baggage, meal, ssr, co2">
                 <datalist id="vplist">
                     <option value="seat"><option value="baggage"><option value="meal"><option value="ssr"><option value="co2"><option value="lounge">
                 </datalist>
             </fieldset>
             <fieldset>
                 <label for="skipHeader">Skip header &amp; footer</label>
-                <input id="skipHeader" name="skipHeader" list="hflist">
+                <input id="skipHeader" name="skipHeader" list="hflist" placeholder="true or false">
                 <datalist id="hflist">
                     <option value="true"><option value="false">
                 </datalist>
