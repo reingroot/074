@@ -20,7 +20,6 @@ $(document).ready(function(){
     $("a").bind({
         click : function(e) {
                     var x = e.currentTarget? (e.currentTarget.href? e.currentTarget.href: "unknown") : "unknown";
-                    console.debug(x);
                     ga('send', 'event', 'linkclick', x);    
         }
     });
