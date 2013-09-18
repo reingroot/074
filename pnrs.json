@@ -77,7 +77,7 @@
       "lastname"   :"Owner",
       "description":"reservation with an AircraftOwner"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZTRUOA",
       "lastname"   :"BIZ",
       "description":"bluebiz form of payment (FP ER169)"
     },
@@ -120,9 +120,9 @@
       "lastname"   :"OPTIONS",
       "description":"Booking with a.o. (EC) paid seats"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZTRVX7",
       "lastname"   :"DUPLI",
-      "description":"PNR address occurs more than once. Lastname DUPLI occurs in one of these only, however"
+      "description":"PNR address occurs more than once. Lastname DUPLI occurs in both of these, lastname LONELY in only one of them"
     }
 ]
 }
