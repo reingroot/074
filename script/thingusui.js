@@ -1,7 +1,7 @@
 define(["xaja", "jquery"],
     function(xaja, $) {
 
-var RUNNINGLOCAL = false;
+var RUNNINGLOCAL = ("file:" === window.location.protocol);
 var x;
 $(document).ready(function(){
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
