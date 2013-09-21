@@ -92,7 +92,7 @@ define(["jquery"], function($) {
 
             $("#PNRList").fadeIn("slow");
             $("#PNRList").empty();
-            pData.reservations.sort(compareReservation);
+            gPNRList.reservations.sort(compareReservation);
             for (var i = 0; i < gPNRList.reservations.length; i++) {
                 $("#PNRList").append("<option value=\"" + i + "\">" + gPNRList.reservations[i].lastname + "/ " + gPNRList.reservations[i].bookingcode +
                 /*
