@@ -120,6 +120,10 @@
       "lastname"   :"OPTIONS",
       "description":"Booking with a.o. (EC) paid seats"
     },
+    { "bookingcode":"ZU87SJ",
+      "lastname"   :"APIS",
+      "description":"Booking for which APIS details are mandatory"
+    },
     { "bookingcode":"ZTRVX7",
       "lastname"   :"DUPLI",
       "description":"PNR address occurs more than once. Lastname DUPLI occurs in both of these, lastname LONELY in only one of them"
