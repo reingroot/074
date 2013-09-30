@@ -1,37 +1,37 @@
 {"reservations":[
-    { "bookingcode":"",
+    { "bookingcode":"ZU8Z2Y",
       "lastname"   :"REBOOKME",
       "description":"rebookable return with onwards"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZU8Z6J",
       "lastname"   :"REBOOK CHEAPER",
       "description":"rebooked to a (cheaper) itinerary. Has residual value EMD"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZU8Z8G",
       "lastname"   :"REBOOKEDITINERARY",
       "description":"rebooked to a (more expensive) itinerary"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZU8Z9Z",
       "lastname"   :"REBOOK",
       "description":"with a rebooked flight in it; ticket revalidated"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZU82NB",
       "lastname"   :"CREDITCARD",
       "description":"Paid with a credit card - AMSCDG"
     },
-    { "bookingcode":"",
-      "lastname"   :"REBOOKED",
+    { "bookingcode":"ZU82ZF",
+      "lastname"   :"REBOOKED AND REISSUED",
       "description":"with a rebooked flight in it; ticket reissued"
     },
     { "bookingcode":"ZSTM8B",
       "lastname"   :"GROUP",
       "description":"group reservation; 14 pax; ticketed"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZU83AO",
       "lastname"   :"VAN STOEL",
-      "description":"two pax with NO, KK on several flights. return AMSNRT 1-15JUL"
+      "description":"two pax with NO, KK on several flights. return AMSNRT 1-15MAR"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZU83K5",
       "lastname"   :"JAWS",
       "description":"open jaw, NO/KK seat, baby basket, surf board, ssr child without sr pax"
     },
@@ -65,11 +65,11 @@
       "lastname"   :"TTT",
       "description":"time to think reservation with one pax"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZU8ZMH",
       "lastname"   :"ECD",
       "description":"one pax PNR with an ecd"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZU8ZQQ",
       "lastname"   :"ECD",
       "description":"two pax PNR with a for all ecd and a load of contact details"
     },
@@ -116,7 +116,7 @@
       "language"   :"ja",
       "viewproduct":"meal"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZU8ZVB",
       "lastname"   :"OPTIONS",
       "description":"Booking with a.o. (EC) paid seats"
     },
