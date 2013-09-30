@@ -85,7 +85,7 @@
       "lastname"   :"LONGITINERARY",
       "description":"long itinerary; with conjunction tickets"
     },
-    { "bookingcode":"",
+    { "bookingcode":"ZU83V9",
       "lastname"   :"SEPARATETICKETS ",
       "description":"itinerary with more than one ticket per passenger; *NO* conjunction tickets"
     },
