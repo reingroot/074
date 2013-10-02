@@ -124,6 +124,10 @@
       "lastname"   :"APIS",
       "description":"Booking for which APIS details are mandatory"
     },
+    { "bookingcode":"ZVF9PG",
+      "lastname"   :"FLOWN",
+      "description":"Booking with a flown flight segment in it (as of 3jul 1A date/ 3oct real date)"
+    },
     { "bookingcode":"ZTRVX7",
       "lastname"   :"DUPLI",
       "description":"PNR address occurs more than once. Lastname DUPLI occurs in both of these, lastname LONELY in only one of them"
