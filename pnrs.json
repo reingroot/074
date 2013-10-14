@@ -133,11 +133,19 @@
       "description":"PNR address occurs more than once. Lastname DUPLI occurs in both of these, lastname LONELY in only one of them"
       
     },
+    { "bookingcode":"ZWK8T7",
+      "lastname"   :"KL BUSINESS",
+      "description":"KLM operated, business class EUR & ICA"
+      
+    },
+    { "bookingcode":"ZWK829",
+      "lastname"   :"KL ECONOMY",
+      "description":"KLM operated, economy class EUR & ICA"
+      
+    },
     { "bookingcode":"ZWKUYQ",
       "lastname"   :"FIRST",
       "description":"Reservation in First class (on AF operated flights)"
-      
     }
-    
 ]
 }
