@@ -131,6 +131,13 @@
     { "bookingcode":"ZTRVX7",
       "lastname"   :"DUPLI",
       "description":"PNR address occurs more than once. Lastname DUPLI occurs in both of these, lastname LONELY in only one of them"
+      
+    },
+    { "bookingcode":"ZWKUYQ",
+      "lastname"   :"FIRST",
+      "description":"Reservation in First class (on AF operated flights)"
+      
     }
+    
 ]
 }
