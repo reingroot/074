@@ -53,7 +53,7 @@
       "lastname"   :"DAYRETURN ",
       "description":"Generic dayreturn AMS-CDG"
     },
-    { "bookingcode":"26DZLV",
+    { "bookingcode":"",
       "lastname"   :"INFORMATIONAL ",
       "description":"with two informational segments"
     },
@@ -73,7 +73,7 @@
       "lastname"   :"ECD",
       "description":"two pax PNR with a for all ecd and a load of contact details"
     },
-    { "bookingcode":"",
+    { "bookingcode":"26DZLV",
       "lastname"   :"Owner",
       "description":"reservation with an AircraftOwner"
     },
