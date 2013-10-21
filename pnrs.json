@@ -65,13 +65,13 @@
       "lastname"   :"TTT",
       "description":"time to think reservation with one pax"
     },
-    { "bookingcode":"",
+    { "bookingcode":"26FDLO",
       "lastname"   :"ECD",
       "description":"one pax PNR with an ecd"
     },
-    { "bookingcode":"",
+    { "bookingcode":"26FC7X",
       "lastname"   :"ECD",
-      "description":"two pax PNR with a for all ecd and a load of contact details"
+      "description":"three pax PNR with a for all ecd and a load of contact details"
     },
     { "bookingcode":"26DZLV",
       "lastname"   :"Owner",
