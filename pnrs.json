@@ -1,41 +1,41 @@
 {"reservations":[
-    { "bookingcode":"ZU8Z2Y",
+    { "bookingcode":"",
       "lastname"   :"REBOOKME",
       "description":"rebookable return with onwards"
     },
-    { "bookingcode":"ZU8Z6J",
+    { "bookingcode":"",
       "lastname"   :"REBOOK CHEAPER",
       "description":"rebooked to a (cheaper) itinerary. Has residual value EMD"
     },
-    { "bookingcode":"ZU8Z8G",
+    { "bookingcode":"",
       "lastname"   :"REBOOKEDITINERARY",
       "description":"rebooked to a (more expensive) itinerary"
     },
-    { "bookingcode":"ZU8Z9Z",
+    { "bookingcode":"",
       "lastname"   :"REBOOK",
       "description":"with a rebooked flight in it; ticket revalidated"
     },
-    { "bookingcode":"ZU82NB",
+    { "bookingcode":"",
       "lastname"   :"CREDITCARD",
       "description":"Paid with a credit card - AMSCDG"
     },
-    { "bookingcode":"ZU82ZF",
+    { "bookingcode":"",
       "lastname"   :"REBOOKED AND REISSUED",
       "description":"with a rebooked flight in it; ticket reissued"
     },
-    { "bookingcode":"ZSTM8B",
+    { "bookingcode":"",
       "lastname"   :"GROUP",
       "description":"group reservation; 14 pax; ticketed"
     },
-    { "bookingcode":"ZU83AO",
+    { "bookingcode":"",
       "lastname"   :"VAN STOEL",
       "description":"two pax with NO, KK on several flights. return AMSNRT 1-15MAR"
     },
-    { "bookingcode":"ZU83K5",
+    { "bookingcode":"",
       "lastname"   :"JAWS",
       "description":"open jaw, NO/KK seat, baby basket, surf board, ssr child without sr pax"
     },
-    { "bookingcode":"ZTR57M",
+    { "bookingcode":"",
       "lastname"   :"TIMEZONE DIFFERENCE",
       "description":"Booking with a flight departing 31 mar from Delhi (2:30)",
       "country"    :"de",
@@ -45,39 +45,39 @@
       "skipheader" :"true",
       "viewproduct":""
     },
-    { "bookingcode":"ZSR65L",
+    { "bookingcode":"",
       "lastname"   :"RUS",
       "description":"parade of weird passenger types. includes SEA, NAT, MIL, YTH"
     },
-    { "bookingcode":"ZSUOGD ",
+    { "bookingcode":"26DYU4",
       "lastname"   :"DAYRETURN ",
       "description":"Generic dayreturn AMS-CDG"
     },
-    { "bookingcode":"ZSTYNT",
+    { "bookingcode":"26DZLV",
       "lastname"   :"INFORMATIONAL ",
       "description":"with two informational segments"
     },
-    { "bookingcode":"ZSSLYN",
+    { "bookingcode":"",
       "lastname"   :"TTT",
       "description":"time to think reservation with two pax"
     },
-    { "bookingcode":"ZSSRNM",
+    { "bookingcode":"",
       "lastname"   :"TTT",
       "description":"time to think reservation with one pax"
     },
-    { "bookingcode":"ZU8ZMH",
+    { "bookingcode":"",
       "lastname"   :"ECD",
       "description":"one pax PNR with an ecd"
     },
-    { "bookingcode":"ZU8ZQQ",
+    { "bookingcode":"",
       "lastname"   :"ECD",
       "description":"two pax PNR with a for all ecd and a load of contact details"
     },
-    { "bookingcode":"ZSTYNT",
+    { "bookingcode":"",
       "lastname"   :"Owner",
       "description":"reservation with an AircraftOwner"
     },
-    { "bookingcode":"ZTRUOA",
+    { "bookingcode":"",
       "lastname"   :"BIZ",
       "description":"bluebiz form of payment (FP ER169)"
     },
@@ -85,7 +85,7 @@
       "lastname"   :"LONGITINERARY",
       "description":"long itinerary; with conjunction tickets"
     },
-    { "bookingcode":"ZU83V9",
+    { "bookingcode":"",
       "lastname"   :"SEPARATETICKETS ",
       "description":"itinerary with more than one ticket per passenger; *NO* conjunction tickets"
     },
@@ -93,57 +93,57 @@
       "lastname"   :"GROUPIE",
       "description":"Group reservation. Most passengers in the reservation are called groupie, except the one called UNIQUE"
     },
-    { "bookingcode":"ZSUJTA",
+    { "bookingcode":"",
       "lastname"   :"INFANTS",
       "description":"with all kinds of infants: INF, INF with lastname, INF in SR only, INS"
     },
-    { "bookingcode":"ZSUPR6",
+    { "bookingcode":"",
       "lastname"   :"IPB",
       "description":"staff leisure travel PNR - open segments only"
     },
-    { "bookingcode":"ZSURCP",
+    { "bookingcode":"",
       "lastname"   :"DUTY",
       "description":"staff duty travel PNR"
     },
-    { "bookingcode":"ZSRXDJ",
+    { "bookingcode":"",
       "lastname"   :"JOHANNESBURG",
       "description":"simple return to johannesburg"
     },
-    { "bookingcode":"ZT555T",
+    { "bookingcode":"26DZ7H",
       "lastname"   :"NARITA",
       "description":"simple return to Tokyo. Japanese site. view product meal",
       "country"    :"jp",
       "language"   :"ja",
       "viewproduct":"meal"
     },
-    { "bookingcode":"ZU8ZVB",
+    { "bookingcode":"",
       "lastname"   :"OPTIONS",
       "description":"Booking with a.o. (EC) paid seats"
     },
-    { "bookingcode":"ZU87SJ",
+    { "bookingcode":"26DYIB",
       "lastname"   :"APIS",
       "description":"Booking for which APIS details are mandatory"
     },
-    { "bookingcode":"ZVF9PG",
+    { "bookingcode":"26D2UZ",
       "lastname"   :"FLOWN",
-      "description":"Booking with a flown flight segment in it (as of 3jul 1A date/ 3oct real date)"
+      "description":"Booking with a flown flight segment in it (as of 17SEP 1A date/ 21OCT real date)"
     },
-    { "bookingcode":"ZTRVX7",
+    { "bookingcode":"",
       "lastname"   :"DUPLI",
       "description":"PNR address occurs more than once. Lastname DUPLI occurs in both of these, lastname LONELY in only one of them"
       
     },
-    { "bookingcode":"ZWK8T7",
+    { "bookingcode":"",
       "lastname"   :"KL BUSINESS",
       "description":"KLM operated, business class EUR & ICA"
       
     },
-    { "bookingcode":"ZWK829",
+    { "bookingcode":"",
       "lastname"   :"KL ECONOMY",
       "description":"KLM operated, economy class EUR & ICA"
       
     },
-    { "bookingcode":"ZWKUYQ",
+    { "bookingcode":"",
       "lastname"   :"FIRST",
       "description":"Reservation in First class (on AF operated flights)"
     }
