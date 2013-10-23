@@ -146,6 +146,10 @@
     { "bookingcode":"26FUQE",
       "lastname"   :"FIRST",
       "description":"Reservation in First class (on AF operated flights)"
+    },
+    { "bookingcode":"26NTIQ",
+      "lastname"   :"operating",
+      "description":"BRS-IAH; operated by KLC, operated by some DL wetlease partner"
     }
 ]
 }
