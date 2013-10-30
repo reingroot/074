@@ -11,7 +11,7 @@
       "lastname"   :"REBOOKEDITINERARY",
       "description":"rebooked to a (more expensive) itinerary"
     },
-    { "bookingcode":"",
+    { "bookingcode":"269E67",
       "lastname"   :"REBOOK",
       "description":"with a rebooked flight in it; ticket revalidated"
     },
