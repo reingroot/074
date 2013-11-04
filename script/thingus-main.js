@@ -1,2 +1,0 @@
-require(["thingusui"], function(thingusui) {
-});
