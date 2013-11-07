@@ -1,5 +1,5 @@
 {"reservations":[
-    "reservation": { "bookingcode":"27OYYM",
+    { "bookingcode":"27OYYM",
       "lastname"   :"VAN TOL",
       "description":"UAT"
     },
