@@ -25,11 +25,11 @@
     },
     { "bookingcode":"26AWK9",
       "lastname"   :"DOUBLE OPEN JAW",
-      "description":"Single open jaw (AMS - CPT, JNB - CDG)"
+      "description":"Double open jaw (AMS - CPT, JNB - CDG)"
     },
-    { "bookingcode":"26AWK9",
+    { "bookingcode":"26AWQR",
       "lastname"   :"DEKKERS",
-      "description":"Nine passengers (practical maximum, doesn't happen often"
+      "description":"Nine passengers (practical maximum, doesn't happen often)"
     }
 ]
 }
