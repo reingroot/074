@@ -30,6 +30,18 @@
     { "bookingcode":"26AWQR",
       "lastname"   :"DEKKERS",
       "description":"Nine passengers (practical maximum, doesn't happen often)"
+    },
+    { "bookingcode":"26CEKU",
+      "lastname"   :"INFORMATIONAL",
+      "description":"Return with onward (MCO-ATL-AMS-LIN vv) - legs between MCO and ATL 'informational' only"
+    },
+    { "bookingcode":"26CE6A",
+      "lastname"   :"DELETED SEGMENT",
+      "description":"Return VIE-YYZ; trip AMS-YYZ deleted in reservation (but not in the ticket)"
+    },
+    { "bookingcode":"26CIDK",
+      "lastname"   :"CANCELED",
+      "description":"Return AMS-ATH for 1 pax. ATH-AMS has status HX"
     }
 ]
 }
