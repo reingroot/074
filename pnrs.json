@@ -1,45 +1,49 @@
 {"reservations":[
-    { "bookingcode":"26AWUN",
+    { "bookingcode":"6PKX5Z",
       "lastname"   :"AA README",
       "description":"To get all offers fill out 'testall' for entry reason. Double-click in a field to see all possible values."
     },
-    { "bookingcode":"26AUEL",
+    { "bookingcode":"6PKXWA",
       "lastname"   :"SINGLE TRIP ONE PAX",
       "description":"Single trip with one passenger"
     },
-    { "bookingcode":"26AU33",
+    { "bookingcode":"6PKXXO",
       "lastname"   :"RETURN TRIP",
       "description":"Simple return trip with two passengers"
     },
-    { "bookingcode":"26AVSL",
+    { "bookingcode":"6PKX4N",
       "lastname"   :"RETURN WITH ONWARD",
       "description":"Return with onward (goteborg - jakarta via amsterdam) with three passengers"
     },
-    { "bookingcode":"26AWAU",
+    { "bookingcode":"",
       "lastname"   :"MULTICITY",
       "description":"Multicity through US and France"
     },
-    { "bookingcode":"26AWII",
+    { "bookingcode":"6PKYGK",
       "lastname"   :"OPEN JAW",
       "description":"Single open jaw (AMS - SFO, LAX - AMS)"
     },
-    { "bookingcode":"26AWK9",
+    { "bookingcode":"6PKYI3",
       "lastname"   :"DOUBLE OPEN JAW",
       "description":"Double open jaw (AMS - CPT, JNB - CDG)"
     },
-    { "bookingcode":"26AWQR",
+    { "bookingcode":"6PKVV5",
+      "lastname"   :"DYNAMIC PACKAGING",
+      "description":"3 pax dynamic packaging booking with car & hotel"
+    },
+    { "bookingcode":"",
       "lastname"   :"DEKKERS",
       "description":"Nine passengers (practical maximum, doesn't happen often)"
     },
-    { "bookingcode":"26CEKU",
+    { "bookingcode":"",
       "lastname"   :"INFORMATIONAL",
       "description":"Return with onward (MCO-ATL-AMS-LIN vv) - legs between MCO and ATL 'informational' only"
     },
-    { "bookingcode":"26CE6A",
+    { "bookingcode":"6PKYAJ",
       "lastname"   :"DELETED SEGMENT",
       "description":"Return VIE-YYZ; trip AMS-YYZ deleted in reservation (but not in the ticket)"
     },
-    { "bookingcode":"26CIDK",
+    { "bookingcode":"6PKYCD",
       "lastname"   :"CANCELED",
       "description":"Return AMS-ATH for 1 pax. ATH-AMS has status HX"
     }
