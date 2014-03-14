@@ -31,11 +31,11 @@
       "lastname"   :"DYNAMIC PACKAGING",
       "description":"3 pax dynamic packaging booking with car & hotel"
     },
-    { "bookingcode":"",
+    { "bookingcode":"6PK6W3",
       "lastname"   :"DEKKERS",
       "description":"Nine passengers (practical maximum, doesn't happen often)"
     },
-    { "bookingcode":"",
+    { "bookingcode":"6PK6HC",
       "lastname"   :"INFORMATIONAL",
       "description":"Return with onward (MCO-ATL-AMS-LIN vv) - legs between MCO and ATL 'informational' only"
     },
