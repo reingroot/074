@@ -113,7 +113,7 @@
             }
             @media screen and (min-width: 321px) and (max-width: 640px) {
                 body {
-                    background-image: url('http://media-cache-ak0.pinimg.com/originals/ec/7a/70/ec7a70aadb482b01f76a2d43b3fd98c4.jpg');
+                    /*background-image: url('http://media-cache-ak0.pinimg.com/originals/ec/7a/70/ec7a70aadb482b01f76a2d43b3fd98c4.jpg');*/
                 }
                 form {
                     border-color: #00A1DE;
@@ -137,7 +137,7 @@
             <h1>Search </h1>
             <fieldset>
                 <label for="origin">Origin</label>
-                <input id="origin" name="origin" value="AMS">
+                <input id="origin" name="origin" placeholder="city or airport code e.g. AMS" value="AMS">
             </fieldset>
             <fieldset>
                 <label for="originType">Origin type</label>
@@ -149,7 +149,7 @@
             </fieldset>
             <fieldset>
                 <label for="destination">Destination</label>
-                <input id="destination" name="destination">
+                <input id="destination" name="destination" placeholder="city or airport code e.g. SIN">
             </fieldset>
             <fieldset>
                 <label for="destinationType">Origin type</label>
@@ -241,7 +241,7 @@
                 </datalist>
             </fieldset>
             <fieldset>
-                <label for="hideScheduleBox">Summary visible?</label>
+                <label for="hideScheduleBox">Hide schedule box?</label>
                 <input id="hideScheduleBox" name="hideScheduleBox" list="hslist" placeholder="true or false" value="false">
                 <datalist id="hslist">
                     <option value="true">true</option>
