@@ -132,36 +132,24 @@
     </head>
     <body>
         <form class="shadow" id="manual"
-        action="https://www.ute3.klm.com/travel/nl_en/apps/ebt/ebt_home.htm"
+        action="https://www.klm.com/travel/nl_en/apps/ebt/ebt_home.htm"
         method="GET"
         target="_blank">
             <input type="reset">
             <h1>Search</h1>
+            <input type="hidden" id="goToPage" name="goToPage" value="home_moreoptions">
+            <input type="hidden" id="frame" name="frame" value="b2c">
             <fieldset>
-                <input type="hidden" id="goToPage" name="goToPage" value="home_moreoptions">
-                <input type="hidden" id="frame" name="frame" value="b2c">
-                <label for="c[0].os">Conn 1: Origin</label>
-                <input id="c[0].os" name="c[0].os" placeholder="city or airport code e.g. AMS" value="AMS">
-            </fieldset>
-            <fieldset>
-                <label for="c[0].ds">Conn 1: Destination</label>
-                <input id="c[0].ds" name="c[0].ds" placeholder="city or airport code e.g. SIN">
-            </fieldset>
-            <fieldset>
-                <label for="c[0].dd">Conn 1: Departure date</label>
-                <input id="c[0].dd" name="c[0].dd" placeholder="YYYY-MM-DD" value="2014-07-20">
-            </fieldset>
-            <fieldset>
-                <label for="c[1].os">Conn 2: Origin</label>
-                <input id="c[1].os" name="c[1].os" placeholder="city or airport code e.g. AMS" value="AMS">
-            </fieldset>
-            <fieldset>
-                <label for="c[1].ds">Conn 2: Destination</label>
-                <input id="c[1].ds" name="c[1].ds" placeholder="city or airport code e.g. SIN">
-            </fieldset>
-            <fieldset>
-                <label for="c[1].dd">Conn 2: Departure date</label>
-                <input id="c[1].dd" name="c[1].dd" placeholder="YYYY-MM-DD" value="2014-07-27">
+                <label for="pos">Point of sale</label>
+                <input id="pos" name="pos" value="EN" list="poslist">
+                <datalist id="poslist">
+                    <option value="EN">EN</option>
+                    <option value="DE">DE</option>
+                    <option value="NL">NL</option>
+                    <option value="CN">CN</option>
+                    <option value="RU">RU</option>
+                    <option value="JA">JA</option>
+                </datalist>
             </fieldset>
             <fieldset>
                 <label for="countryCode">Country</label>
@@ -188,16 +176,8 @@
                 </datalist>
             </fieldset>
             <fieldset>
-                <label for="pos">Point of sale</label>
-                <input id="pos" name="pos" value="EN" list="poslist">
-                <datalist id="poslist">
-                    <option value="EN">EN</option>
-                    <option value="DE">DE</option>
-                    <option value="NL">NL</option>
-                    <option value="CN">CN</option>
-                    <option value="RU">RU</option>
-                    <option value="JA">JA</option>
-                </datalist>
+                <label for="cffcc">Cabin class</label>
+                <input id="cffcc" name="cffcc" placeholder="M or C" value="M">
             </fieldset>
             <fieldset>
                 <label for="adtQty">Number of adults</label>
@@ -212,9 +192,32 @@
                 <input id="infQty" name="infQty" placeholder="a number" value="0">
             </fieldset>
             <fieldset>
-                <label for="cffcc">Cabin class</label>
-                <input id="cffcc" name="cffcc" placeholder="M or C" value="M">
+                <label for="c[0].os">Conn 1: Origin</label>
+                <input id="c[0].os" name="c[0].os" placeholder="city or airport code e.g. AMS" value="AMS">
             </fieldset>
+            <fieldset>
+                <label for="c[0].ds">Conn 1: Destination</label>
+                <input id="c[0].ds" name="c[0].ds" placeholder="city or airport code e.g. SIN">
+            </fieldset>
+            <!--
+            <fieldset>
+                <label for="c[0].dd">Conn 1: Date</label>
+                <input id="c[0].dd" name="c[0].dd" placeholder="YYYY-MM-DD" value="2014-07-20">
+            </fieldset>
+            
+            <fieldset>
+                <label for="c[1].os">Conn 2: Origin</label>
+                <input id="c[1].os" name="c[1].os" placeholder="city or airport code e.g. AMS" value="LHR">
+            </fieldset>
+            <fieldset>
+                <label for="c[1].ds">Conn 2: Destination</label>
+                <input id="c[1].ds" name="c[1].ds" placeholder="city or airport code e.g. SIN">
+            </fieldset>
+            <fieldset>
+                <label for="c[1].dd">Conn 2: Date</label>
+                <input id="c[1].dd" name="c[1].dd" placeholder="YYYY-MM-DD" value="2014-07-27">
+            </fieldset>
+            -->
             <!-- 
             <fieldset>
                 <label for="baseurl" >Base URL</label>
