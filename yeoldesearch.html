@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="Search">
+        <meta name="viewport" content="user-scalable=no, width=device-width"/>
+        <title>Search</title>
+        <style type="text/css" media="screen">
+            body {
+                background-color: white;
+                /*background-image: url('http://blog.klm.com/wp-content/uploads/2012/06/Dakota1.jpg');*/
+                background-image: url('http://media-cache-ak0.pinimg.com/originals/8c/9a/ac/8c9aac30036019b22c2d5ac0826dd75b.jpg');
+                /*background-image: url('http://media-cache-ak0.pinimg.com/originals/fc/ea/7c/fcea7c6b8bd215fc4db57f87954efff4.jpg');*/
+                /*background-image : url('http://blog.klm.com/wp-content/themes/klm/images/bg_g.jpg');*/
+                background-repeat: repeat-down;
+                background-position: top;
+                background-origin: content-box;
+                background-size: 100%;
+                color: cyan;
+                font-family: Verdana;
+                font-size: 11px;
+                color: #003145;
+            }
+            label {
+                font-weight: 700;
+                text-align: left;
+                min-width: 12em;
+                max-width: 12em;
+                float: left;
+            }
+            fieldset {
+                border: none;
+                padding-bottom: 0em;
+                padding-top: 0em;
+            }
+            h1 {
+                font-family: NoaLight, Verdana;
+                font-size: 1.6em;
+                color: #00A1DE;
+                line-height: 1.6em;
+            }
+            #description {
+                color: gray;
+                font-style: italic;
+            }
+            input[type='submit'], [type='button'] {
+                padding-left: 2em;
+                padding-right: 2em;
+                padding-top: 0.3em;
+                padding-bottom: 0.3em;
+                float: left;
+                font-size: 1.2em;
+                font-weight: 700;
+                text-align: center;
+                border-radius: 0.3em;
+                border: none;
+            }
+            input[type='submit'] {
+                background-color: #E37222;
+                color: white;
+                float: right;
+            }
+            input[type='reset'] {
+                color: #00A1DE;
+                background-color: white;
+                position: relative;
+                float: right;
+                border: none;
+            }
+            form {
+                width: 30em;
+                max-width: 100%;
+                padding: 1em;
+                border-color: #00A1DE;
+                border-style: solid;
+                border-width: 1px;
+                background-color: white;
+                position: relative;
+                overflow: right;
+                top: 3em;
+                left: 3em;
+            }
+            #PNRList {
+                display: none;
+            }
+            .shadow {
+                box-shadow: 0.0em 0.0em 1em -0.2em black;
+                border-collapse: separate; /* apparently needed for IE */
+            }
+            @media screen and (max-width: 640px) {
+                body {
+                    background-image: none;
+                    margin: 0em;
+                    border: 0em;
+                    padding: 0em;
+                }
+                form {
+                    top: 0em;
+                    left: 0em;
+                    margin: 0em;
+                    padding: 0em;
+                    border: none;
+                }
+                fieldset {
+                    padding-bottom: 0em;
+                }
+                h1 {
+                    margin-bottom: 0.0em;
+                    margin-top: 0.1em;
+                }
+                .hideonmobile {
+                    display: none;
+                }
+            }
+            @media screen and (min-width: 321px) and (max-width: 640px) {
+                body {
+                    /*background-image: url('http://media-cache-ak0.pinimg.com/originals/ec/7a/70/ec7a70aadb482b01f76a2d43b3fd98c4.jpg');*/
+                }
+                form {
+                    border-color: #00A1DE;
+                    border-style: solid;
+                    border-width: 1px;
+                    margin: 1%;
+                }
+            }
+        </style>
+        <link rel="icon" href="./favicon.png">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <link rel="shortcut icon" href="./favicon.ico">
+
+    </head>
+    <body>
+        <form class="shadow" id="manual"
+        action="http://www.ute3.klm.com/travel/nl_en/apps/ebt/calendar.htm"
+        method="GET"
+        target="_blank">
+            <input type="reset">
+            <h1>Search </h1>
+            <fieldset>
+                <label for="origin">Origin</label>
+                <input id="origin" name="origin" placeholder="city or airport code e.g. AMS" value="AMS">
+            </fieldset>
+            <fieldset>
+                <label for="originType">Origin type</label>
+                <input id="originType" name="originType" value="AIRPORT" list="otlist">
+                <datalist id="otlist">
+                    <option value="AIRPORT">AIRPORT</option>
+                    <option value="CITY">CITY</option>
+                 </datalist>
+            </fieldset>
+            <fieldset>
+                <label for="destination">Destination</label>
+                <input id="destination" name="destination" placeholder="city or airport code e.g. SIN">
+            </fieldset>
+            <fieldset>
+                <label for="destinationType">Origin type</label>
+                <input id="destinationType" name="destinationType" value="AIRPORT" list="dtlist">
+                <datalist id="dtlist">
+                    <option value="AIRPORT">AIRPORT</option>
+                    <option value="CITY">CITY</option>
+                 </datalist>
+            </fieldset>
+            <fieldset>
+                <label for="country">Country</label>
+                <input id="country" name="country" value="NL" list="colist">
+                <datalist id="colist">
+                    <option value="EN">EN</option>
+                    <option value="DE">DE</option>
+                    <option value="NL">NL</option>
+                    <option value="CN">CN</option>
+                    <option value="RU">RU</option>
+                    <option value="JA">JA</option>
+                </datalist>
+            </fieldset>
+            <fieldset>
+                <label for="language">Language</label>
+                <input id="language" name="language" value="en" list="lalist">
+                <datalist id="lalist">
+                    <option value="en">en</option>
+                    <option value="de">de</option>
+                    <option value="nl">nl</option>
+                    <option value="cn">cn</option>
+                    <option value="ru">ru</option>
+                    <option value="ja">ja</option>
+                </datalist>
+            </fieldset>
+            <fieldset>
+                <label for="pos">Point of sale</label>
+                <input id="pos" name="pos" value="EN" list="poslist">
+                <datalist id="poslist">
+                    <option value="EN">EN</option>
+                    <option value="DE">DE</option>
+                    <option value="NL">NL</option>
+                    <option value="CN">CN</option>
+                    <option value="RU">RU</option>
+                    <option value="JA">JA</option>
+                </datalist>
+            </fieldset>
+            <fieldset>
+                <label for="numberOfAdults">Number of adults</label>
+                <input id="numberOfAdults" name="numberOfAdults" placeholder="a number" value="1">
+            </fieldset>
+            <fieldset>
+                <label for="numberOfChildren">Number of children</label>
+                <input id="numberOfChildren" name="numberOfChildren" placeholder="a number" value="0">
+            </fieldset>
+            <fieldset>
+                <label for="numberOfInfants">Number of infants</label>
+                <input id="numberOfInfants" name="numberOfInfants" placeholder="a number" value="0">
+            </fieldset>
+            <fieldset>
+                <label for="cabinClass">Cabin class</label>
+                <input id="cabinClass" name="cabinClass" placeholder="M or C" value="M">
+            </fieldset>
+            <fieldset>
+                <label for="outboundDate">Outbound date</label>
+                <input id="outboundDate" name="outboundDate" placeholder="YYYY-MM-DD" value="2014-07-20">
+            </fieldset>
+            <fieldset>
+                <label for="inboundDate">Inbound date</label>
+                <input id="inboundDate" name="inboundDate" placeholder="YYYY-MM-DD" value="2014-07-27">
+            </fieldset>
+            <fieldset>
+                <label for="outboundMonth">Outbound month</label>
+                <input id="outboundMonth" name="outboundMonth" placeholder="format YYYY-MM e.g. 2014-07">
+            </fieldset>
+            <fieldset>
+                <label for="canModify">Can modify ...</label>
+                <input id="canModify" name="canModify" list="cmlist" placeholder="ORIGIN, DESTINATION, ORIGIN,DESTINATION" value="ORIGIN,DESTINATION">
+                <datalist id="cmlist">
+                    <option value="ORIGIN,DESTINATION">ORIGIN,DESTINATION</option>
+                    <option value="ORIGIN">ORIGIN</option>
+                    <option value="DESTINATION">DESTINATION</option>
+                </datalist>
+            </fieldset>
+            <fieldset>
+                <label for="summaryVisible">Summary visible?</label>
+                <input id="summaryVisible" name="summaryVisible" list="svlist" placeholder="true or false" value="true">
+                <datalist id="svlist">
+                    <option value="true">true</option>
+                    <option value="false">false</option>
+                </datalist>
+            </fieldset>
+            <fieldset>
+                <label for="hideScheduleBox">Hide schedule box?</label>
+                <input id="hideScheduleBox" name="hideScheduleBox" list="hslist" placeholder="true or false" value="false">
+                <datalist id="hslist">
+                    <option value="true">true</option>
+                    <option value="false">false</option>
+                </datalist>
+            </fieldset>
+            <fieldset>
+                <label for="view">View</label>
+                <input id="view" name="view" list="vwlist" placeholder="MultiMonthView">
+                <datalist id="vwlist">
+                    <option value="MultiMonthView">MultiMonthView</option>
+                </datalist>
+            </fieldset>
+            <fieldset>
+                <label for="application">Application</label>
+                <input id="application" name="application" list="aplist" value="EBT7">
+                <datalist id="aplist">
+                    <option value="MultiMonthView">EBT7</option>
+                </datalist>
+            </fieldset>
+            <!-- 
+            <fieldset>
+                <label for="baseurl" >Base URL</label>
+                <select id="baseurl" style="color:inherit">
+                    <option value="https://www.ute3.klm.com/ams/mytrip/booking/deeplink.xhtml">ute3</option>
+                    <option value="https://www.ute1.klm.com/ams/mytrip/booking/deeplink.xhtml">ute1</option>
+                </select>
+                <span></span>
+            </fieldset>
+            -->
+            <fieldset>
+                <input id="submit" type="submit" value="Find this &gt;">
+            </fieldset>
+        </form>
+    </body>
+</html>
