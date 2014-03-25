@@ -161,17 +161,14 @@
             </fieldset>
             <fieldset>
                 <label for="country">Country</label>
-                <input id="country" name="country" value="nl" list="colist">
+                <input id="country" name="country" value="NL" list="colist">
                 <datalist id="colist">
-                    <option value="cn">cn</option>
-                    <option value="de">de</option>
-                    <option value="es">es</option>
-                    <option value="gb">gb</option>
-                    <option value="jp">jp</option>
-                    <option value="ko">ko</option>
-                    <option value="nl">nl</option>
-                    <option value="ru">ru</option>
-                    <option value="us">us</option>
+                    <option value="EN">EN</option>
+                    <option value="DE">DE</option>
+                    <option value="NL">NL</option>
+                    <option value="CN">CN</option>
+                    <option value="RU">RU</option>
+                    <option value="JA">JA</option>
                 </datalist>
             </fieldset>
             <fieldset>
@@ -188,14 +185,14 @@
             </fieldset>
             <fieldset>
                 <label for="pos">Point of sale</label>
-                <input id="pos" name="pos" value="en" list="poslist">
+                <input id="pos" name="pos" value="EN" list="poslist">
                 <datalist id="poslist">
-                    <option value="en">en</option>
-                    <option value="de">de</option>
-                    <option value="nl">nl</option>
-                    <option value="cn">cn</option>
-                    <option value="ru">ru</option>
-                    <option value="ja">ja</option>
+                    <option value="EN">EN</option>
+                    <option value="DE">DE</option>
+                    <option value="NL">NL</option>
+                    <option value="CN">CN</option>
+                    <option value="RU">RU</option>
+                    <option value="JA">JA</option>
                 </datalist>
             </fieldset>
             <fieldset>
@@ -224,13 +221,13 @@
             </fieldset>
             <fieldset>
                 <label for="outboundMonth">Outbound month</label>
-                <input id="outboundMonth" name="outboundMonth" placeholder="format YYYY-MM e.g. 2014-07" value="2014-07">
+                <input id="outboundMonth" name="outboundMonth" placeholder="format YYYY-MM e.g. 2014-07">
             </fieldset>
             <fieldset>
                 <label for="canModify">Can modify ...</label>
-                <input id="canModify" name="canModify" list="cmlist" placeholder="ORIGIN, DESTINATION, ORIGIN-DESTINATION" value="ORIGIN-DESTINATION">
+                <input id="canModify" name="canModify" list="cmlist" placeholder="ORIGIN, DESTINATION, ORIGIN,DESTINATION" value="ORIGIN-DESTINATION">
                 <datalist id="cmlist">
-                    <option value="ORIGIN-DESTINATION">ORIGIN-DESTINATION</option>
+                    <option value="ORIGIN,DESTINATION">ORIGIN,DESTINATION</option>
                     <option value="ORIGIN">ORIGIN</option>
                     <option value="DESTINATION">DESTINATION</option>
                 </datalist>
@@ -256,8 +253,6 @@
                 <input id="view" name="view" list="vwlist" placeholder="MultiMonthView">
                 <datalist id="vwlist">
                     <option value="MultiMonthView">MultiMonthView</option>
-                    <option value="overview">???</option>
-                    <option value="passengers">???</option>
                 </datalist>
             </fieldset>
             <!-- 
@@ -271,10 +266,9 @@
             </fieldset>
             -->
             <fieldset>
-                <input id="submit" type="submit" value="Find this &gt;">
                 <input id="application" type="hidden" value="EBT7">
+                <input id="submit" type="submit" value="Find this &gt;">
             </fieldset>
-            <hr>
         </form>
     </body>
 </html>
