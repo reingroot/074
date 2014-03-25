@@ -137,7 +137,7 @@
             <h1>Search </h1>
             <fieldset>
                 <label for="origin">Origin</label>
-                <input id="origin" name="origin">
+                <input id="origin" name="origin" value="AMS">
             </fieldset>
             <fieldset>
                 <label for="originType">Origin type</label>
@@ -225,7 +225,7 @@
             </fieldset>
             <fieldset>
                 <label for="canModify">Can modify ...</label>
-                <input id="canModify" name="canModify" list="cmlist" placeholder="ORIGIN, DESTINATION, ORIGIN,DESTINATION" value="ORIGIN-DESTINATION">
+                <input id="canModify" name="canModify" list="cmlist" placeholder="ORIGIN, DESTINATION, ORIGIN,DESTINATION" value="ORIGIN,DESTINATION">
                 <datalist id="cmlist">
                     <option value="ORIGIN,DESTINATION">ORIGIN,DESTINATION</option>
                     <option value="ORIGIN">ORIGIN</option>
@@ -255,6 +255,13 @@
                     <option value="MultiMonthView">MultiMonthView</option>
                 </datalist>
             </fieldset>
+            <fieldset>
+                <label for="application">View</label>
+                <input id="application" name="application" list="aplist" value="EBT7">
+                <datalist id="aplist">
+                    <option value="MultiMonthView">EBT7</option>
+                </datalist>
+            </fieldset>
             <!-- 
             <fieldset>
                 <label for="baseurl" >Base URL</label>
@@ -266,7 +273,6 @@
             </fieldset>
             -->
             <fieldset>
-                <input id="application" type="hidden" value="EBT7">
                 <input id="submit" type="submit" value="Find this &gt;">
             </fieldset>
         </form>
