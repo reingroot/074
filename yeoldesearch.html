@@ -132,12 +132,14 @@
     </head>
     <body>
         <form class="shadow" id="manual"
-        action="https://www.klm.com/travel/nl_en/apps/ebt/ebt_home.htm"
+        action="https://www.ute3.klm.com/travel/nl_en/apps/ebt/ebt_home.htm"
         method="GET"
         target="_blank">
             <input type="reset">
-            <h1>Search </h1>
+            <h1>Search</h1>
             <fieldset>
+                <input type="hidden" id="goToPage" name="goToPage" value="home_moreoptions">
+                <input type="hidden" id="frame" name="frame" value="b2c">
                 <label for="c[0].os">Conn 1: Origin</label>
                 <input id="c[0].os" name="c[0].os" placeholder="city or airport code e.g. AMS" value="AMS">
             </fieldset>
@@ -224,8 +226,6 @@
             </fieldset>
             -->
             <fieldset>
-                <input type="hidden" id="goToPage" name="goToPage" value="home_moreoptions">
-                <input type="hidden" id="frame" name="frame" value="b2c">
                 <input id="submit" type="submit" value="Find this &gt;">
             </fieldset>
         </form>
