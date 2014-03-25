@@ -228,8 +228,8 @@
             </fieldset>
             <fieldset>
                 <label for="canModify">Can modify ...</label>
-                <input id="canModify" name="canModify" placeholder="ORIGIN, DESTINATION, ORIGIN-DESTINATION value="ORIGIN-DESTINATION">
-                <datalist id="svlist">
+                <input id="canModify" name="canModify" list="cmlist" placeholder="ORIGIN, DESTINATION, ORIGIN-DESTINATION" value="ORIGIN-DESTINATION">
+                <datalist id="cmlist">
                     <option value="ORIGIN-DESTINATION">ORIGIN-DESTINATION</option>
                     <option value="ORIGIN">ORIGIN</option>
                     <option value="DESTINATION">DESTINATION</option>
@@ -255,7 +255,7 @@
                 <label for="view">View</label>
                 <input id="view" name="view" list="vwlist" placeholder="MultiMonthView">
                 <datalist id="vwlist">
-                    <option value="main">MultiMonthView</option>
+                    <option value="MultiMonthView">MultiMonthView</option>
                     <option value="overview">???</option>
                     <option value="passengers">???</option>
                 </datalist>
@@ -273,7 +273,6 @@
             <fieldset>
                 <input id="submit" type="submit" value="Find this &gt;">
                 <input id="application" type="hidden" value="EBT7">
-                <input id=
             </fieldset>
             <hr>
         </form>
