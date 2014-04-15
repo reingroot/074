@@ -3,6 +3,10 @@
       "lastname"   :"AA README",
       "description":"To get all offers fill out 'testall' for entry reason. Double-click in a field to see all possible values."
     },
+    { "bookingcode":"6RIUFX",
+      "lastname"   :"AWARD",
+      "description":"An award booking."
+    },
     { "bookingcode":"6PKXWA",
       "lastname"   :"SINGLE TRIP ONE PAX",
       "description":"Single trip with one passenger"
