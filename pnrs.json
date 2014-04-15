@@ -47,15 +47,17 @@
       "lastname"   :"CANCELED",
       "description":"Return AMS-ATH for 1 pax. ATH-AMS has status HX"
     },
-    {
-        "bookingcode" :"6P7X3R",
-        "lastname"    :"GROUP BOOKING",
-        "description" :"A group booking with unique last names. Ticket numbers of other passengers: 0742467985027, 0742467985028, 0742467985030"
+    { "bookingcode" :"6P7X3R",
+      "lastname"    :"GROUP BOOKING",
+      "description" :"A group booking with unique last names. Ticket numbers of other passengers: 0742467985027, 0742467985028, 0742467985030"
     },
-    {
-        "bookingcode" :"6QEWS8",
-        "lastname"    :"FAMILY",
-        "description" :"A family with 2 ADT, 1 CHD, 1 INF. Return AMS-BCN"
+    { "bookingcode" :"6QEWS8",
+      "lastname"    :"FAMILY",
+      "description" :"A family with 2 ADT, 1 CHD, 1 INF. Return AMS-BCN"
+    },
+    { bookingcode :"6RGEZT",
+      lastname    :"RBK",
+      description :"Already rebooked once"
     }
 ]
 }
