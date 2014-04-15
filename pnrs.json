@@ -55,9 +55,9 @@
       "lastname"    :"FAMILY",
       "description" :"A family with 2 ADT, 1 CHD, 1 INF. Return AMS-BCN"
     },
-    { bookingcode :"6RGEZT",
-      lastname    :"RBK",
-      description :"Already rebooked once"
+    { "bookingcode" :"6RGEZT",
+      "lastname"    :"RBK",
+      "description" :"Already rebooked once"
     }
 ]
 }
