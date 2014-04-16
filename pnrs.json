@@ -66,6 +66,10 @@
     { "bookingcode" :"6RKLMZ",
       "lastname"    :"NO TICKET",
       "description" :"A one passenger reservation OSL-SVO that has not been ticketed yet."
+    },
+    { "bookingcode" :"6RKL6M",
+      "lastname"    :"NOT CHANGEABLE",
+      "description" :"A one passenger, ticketed reservation AMS-PBM that is not changeable."
     }
 ]
 }
