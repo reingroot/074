@@ -62,6 +62,10 @@
     { "bookingcode" :"6RGEZT",
       "lastname"    :"RBK",
       "description" :"Already rebooked once"
+    },
+    { "bookingcode" :"6RKLMZ",
+      "lastname"    :"NO TICKET",
+      "description" :"A one passenger reservation OSL-SVO that has not been ticketed yet."
     }
 ]
 }
